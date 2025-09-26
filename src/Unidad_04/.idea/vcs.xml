@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Unidad_02/Ej10_ActualizarStock" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Unidad_02/Ej11_DescuentoEspecial" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Unidad_02/Ej12_ArrayPrecios" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Unidad_02/Ej13_RecursividadArray" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Unidad_02/Ej1_AnioBisiesto" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Unidad_02/Ej1_AnioBisiesto/src/aniobisiesto" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Unidad_02/Ej2_MayorTresNumeros" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Unidad_02/Ej3_ClasificacionEdad" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Unidad_02/Ej4_DescuentoCategoria" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Unidad_02/Ej5_SumaPares" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Unidad_02/Ej6_ContadorNumeros" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Unidad_02/Ej7_ValidacionNota" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Unidad_02/Ej8_PrecioFinal" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Unidad_02/Ej9_CostoEnvio" vcs="Git" />
+  </component>
+</project>
