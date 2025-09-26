@@ -1,0 +1,19 @@
+@startuml
+class Vehiculo {
+    +patente: String
+    +modelo: String
+}
+
+class Motor {
+    +tipo: String
+    +numeroSerie: String
+}
+
+class Conductor {
+    +nombre: String
+    +licencia: String
+}
+
+Vehiculo o-- Motor : agregación
+Vehiculo <--> Conductor : asociación bidireccional
+@enduml

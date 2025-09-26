@@ -1,0 +1,19 @@
+@startuml
+class Reserva {
+    +fecha: String
+    +hora: String
+}
+
+class Cliente6 {
+    +nombre: String
+    +telefono: String
+}
+
+class Mesa {
+    +numero: int
+    +capacidad: int
+}
+
+Reserva --> Cliente6 : asociación unidireccional
+Reserva o-- Mesa : agregación
+@enduml

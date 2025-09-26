@@ -1,0 +1,17 @@
+@startuml
+class Reproductor {
+    +reproducir(Cancion)
+}
+
+class Cancion {
+    +titulo: String
+}
+
+class Artista {
+    +nombre: String
+    +genero: String
+}
+
+Cancion --> Artista : asociación unidireccional
+Reproductor ..> Cancion : dependencia de uso
+@enduml

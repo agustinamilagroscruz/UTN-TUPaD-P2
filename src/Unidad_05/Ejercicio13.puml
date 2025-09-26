@@ -1,0 +1,17 @@
+@startuml
+class GeneradorQR {
+    +generar(valor, Usuario13)
+}
+
+class CodigoQR {
+    +valor: String
+}
+
+class Usuario13 {
+    +nombre: String
+    +email: String
+}
+
+CodigoQR --> Usuario13 : asociación unidireccional
+GeneradorQR ..> CodigoQR : dependencia de creación
+@enduml

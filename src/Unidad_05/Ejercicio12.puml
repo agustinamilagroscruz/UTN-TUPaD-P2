@@ -1,0 +1,17 @@
+@startuml
+class Impuesto {
+    +monto: double
+}
+
+class Contribuyente {
+    +nombre: String
+    +cuil: String
+}
+
+class Calculadora {
+    +calcular(Impuesto)
+}
+
+Impuesto --> Contribuyente : asociación unidireccional
+Calculadora ..> Impuesto : dependencia de uso
+@enduml

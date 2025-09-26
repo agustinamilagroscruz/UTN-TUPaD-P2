@@ -1,0 +1,19 @@
+@startuml
+class Documento {
+    +titulo: String
+    +contenido: String
+}
+
+class FirmaDigital {
+    +codigoHash: String
+    +fecha: String
+}
+
+class Usuario8 {
+    +nombre: String
+    +email: String
+}
+
+Documento *-- FirmaDigital : composición
+FirmaDigital o-- Usuario8 : agregación
+@enduml

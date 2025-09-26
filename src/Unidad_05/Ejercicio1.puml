@@ -1,0 +1,19 @@
+@startuml
+class Pasaporte {
+    +numero: String
+    +fechaEmision: String
+}
+
+class Foto {
+    +imagen: String
+    +formato: String
+}
+
+class Titular1 {
+    +nombre: String
+    +dni: String
+}
+
+Pasaporte *-- Foto : composición
+Pasaporte <--> Titular1 : asociación bidireccional
+@enduml

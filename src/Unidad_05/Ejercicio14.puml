@@ -1,0 +1,17 @@
+@startuml
+class EditorVideo {
+    +exportar(formato, Proyecto)
+}
+
+class Render {
+    +formato: String
+}
+
+class Proyecto {
+    +nombre: String
+    +duracionMin: int
+}
+
+Render --> Proyecto : asociación unidireccional
+EditorVideo ..> Render : dependencia de creación
+@enduml

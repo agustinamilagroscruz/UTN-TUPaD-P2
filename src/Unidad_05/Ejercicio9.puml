@@ -1,0 +1,19 @@
+@startuml
+class CitaMedica {
+    +fecha: String
+    +hora: String
+}
+
+class Paciente {
+    +nombre: String
+    +obraSocial: String
+}
+
+class Profesional {
+    +nombre: String
+    +especialidad: String
+}
+
+CitaMedica --> Paciente : asociación unidireccional
+CitaMedica --> Profesional : asociación unidireccional
+@enduml

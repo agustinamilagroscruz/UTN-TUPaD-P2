@@ -1,0 +1,19 @@
+@startuml
+class TarjetaDeCredito {
+    +numero: String
+    +fechaVencimiento: String
+}
+
+class Cliente4 {
+    +nombre: String
+    +dni: String
+}
+
+class Banco {
+    +nombre: String
+    +cuit: String
+}
+
+TarjetaDeCredito <--> Cliente4 : asociación bidireccional
+TarjetaDeCredito o-- Banco : agregación
+@enduml

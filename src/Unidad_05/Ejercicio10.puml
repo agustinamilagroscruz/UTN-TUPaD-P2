@@ -1,0 +1,19 @@
+@startuml
+class CuentaBancaria {
+    +cbu: String
+    +saldo: double
+}
+
+class ClaveSeguridad {
+    +codigo: String
+    +ultimaModificacion: String
+}
+
+class Titular10 {
+    +nombre: String
+    +dni: String
+}
+
+CuentaBancaria *-- ClaveSeguridad : composición
+CuentaBancaria <--> Titular10 : asociación bidireccional
+@enduml

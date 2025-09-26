@@ -1,0 +1,19 @@
+@startuml
+class Libro {
+    +titulo: String
+    +isbn: String
+}
+
+class Autor {
+    +nombre: String
+    +nacionalidad: String
+}
+
+class Editorial {
+    +nombre: String
+    +direccion: String
+}
+
+Libro --> Autor : asociación unidireccional
+Libro o-- Editorial : agregación
+@enduml

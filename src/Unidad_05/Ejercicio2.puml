@@ -1,0 +1,20 @@
+@startuml
+class Celular {
+    +imei: String
+    +marca: String
+    +modelo: String
+}
+
+class Bateria {
+    +modelo: String
+    +capacidad: String
+}
+
+class Usuario2 {
+    +nombre: String
+    +dni: String
+}
+
+Celular o-- Bateria : agregación
+Celular <--> Usuario2 : asociación bidireccional
+@enduml
